@@ -1,0 +1,285 @@
+body{
+	margin:0;
+	padding: 0;
+}
+#main-container{
+	display:flex;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+.header{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+	box-shadow: 2px 6px 5px lightgrey;
+}
+.head1{
+
+	justify-content: flex-start;
+	margin-left:5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.head2{
+	display:flex;
+	width:600px;
+	justify-content: space-between;
+	margin-right:3.2%;
+}
+.head2 div{
+	margin-right:4%;
+	margin-top:2%;
+
+}
+.head2 a{
+	text-decoration: none;
+	color:black;
+}
+ul li{
+	list-style-type: circle;
+}
+ul #li1{
+	color:white;
+
+}
+.intro{
+	display:flex;
+	background-color: #F9DDBD;
+	margin-top:2%;
+	margin-left:5%;
+	margin-right:5%;
+	height:400px;
+	justify-content: space-between;
+	background-image: url("homebg.jpg");
+	background-repeat: repeat;
+	background-blend-mode: soft-light;
+}
+.intro1{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin:0 auto;
+	text-align: center;
+	font-weight:bold;
+}
+.intro2{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+.btn{
+	background-color: black;
+	color:lightgrey;
+	border-radius: 50px;
+	border:none;
+	width:120px;
+	height:30px;
+	margin-top:25px;
+}
+#clemo{
+	font-size: 20px;
+}
+#img1{
+	margin-top: -30px;
+}
+.contenthead{
+	background-color: #F9F9F9;
+	text-align: center;
+	margin:0;
+	padding-top:70px;
+	font-weight: normal;
+}
+.content1{
+	display:grid;
+	background-color: #F9F9F9;
+	grid-template-columns: 40% 40%;
+	grid-gap: 10%;
+	padding:5%;
+}.para1{
+	margin-left:20%;
+}
+.btn1{
+	background-color: white;
+	color:black;
+	border-radius: 50px;
+	border:1px solid lightgrey;
+	width:120px;
+	height:30px;
+	margin-top:25px;
+}
+.imgw{
+	width:120%;
+
+}
+.item1 { grid-area: img1; }
+.item2 { grid-area: img2; }
+.item3 { grid-area: img3; }
+.item4 { grid-area: img4; }
+.item5 { grid-area: img5; }
+.item6{
+	grid-area:img6;
+}
+.content2{
+	display:grid;
+	background-color: #F9F9F9;
+	grid-template-areas:'img1 img2 img3'
+						'img4 img2 img6'
+						'img4 img5 img6';
+	grid-gap:20px;
+	justify-content: center;
+	
+}
+
+#im2{
+	padding-bottom:30px;
+}
+
+#btc{
+	margin:auto;
+	margin-top:4%;
+	margin-bottom:4%;
+}
+.content3{
+	background-color:#F9DDBD;
+	display:flex;
+	justify-content: space-around; 
+}
+.content3 > div{
+	margin-top: 6%;
+	text-align: center;
+}
+.arrow{
+	padding-top:2%;
+}
+
+.hea1{
+	background-color: #F9DDBD;
+	text-align: center;
+	padding-top:5%;
+}
+.flex-1{
+	background-color: #F9DDBD;
+
+}
+
+#ul li {
+	display: block;
+}
+.cont4{
+	display:grid;
+	grid-template-columns: 30% 30%;
+	justify-content: center;
+	grid-gap:100px;
+
+}
+.cont4-1{
+	text-align: right;
+}
+#hea2{
+	text-align: center;
+}
+.flex-2 {
+	display:flex;
+	
+	justify-content:center;
+
+	
+
+
+}
+.sm{
+	width:100px;
+	max-height:100px;
+	padding:5px;
+
+}
+
+.content5{
+	background-color: #31302e;
+	
+	height:600px;
+	width:100%;
+	background-image: url("tuchbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:grid;
+	grid-template-columns: 40% 40%;
+	grid-gap:10px;
+	justify-content: center;
+	background-blend-mode: soft-light;
+	padding-top:5%;
+
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #525252;
+    background-color: transparent;
+    padding-left: 0;
+    color:#525252;
+}
+#textarea{
+
+    background-color: transparent;
+    
+    border:none;
+    border-bottom:2px solid #525252;
+    margin-top:20px;
+}
+.cont5-1{
+	display:grid;
+	grid-template-columns: 10% 90%;
+	grid-gap: 0;
+	color:white;
+
+}
+
+.div5-1{
+	margin-top:22px;
+	
+}
+.icon{
+	padding-bottom:62px;
+}
+#get{
+	margin:0 auto;
+	padding:50px;
+	grid-column: 1/span 2;
+	font-size: 50px;
+
+
+}
+.div{
+	padding-bottom: 10px;
+}
+.icon-flex{
+	display: flex;
+	width:300px;
+	justify-content: space-between;
+}
+.facebook{
+	background-color: white;
+	font-size: 20px;
+	color:black;
+	width:20px;
+	text-align: center;
+	padding: 10px 10px;
+	border-radius: 150%;
+}
+.footer{
+	display:flex;
+	justify-content: center;
+	padding:15px;
+	font-size: 10px;
+
+}
+span{
+	color:red;
+	opacity:0.3;
+}3
